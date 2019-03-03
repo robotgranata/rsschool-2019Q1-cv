@@ -17,6 +17,7 @@ function warmup(tcel) {
   return tfar;
 };
 ```
-6. **My completed task:** [WarmUp](https://github.com/robotgranata/warmup})
+6. **My completed task:** 
+[WarmUp](https://github.com/robotgranata/warmup})
 7. **Education:** *Belarusian National Technical University*
 8. **English level:** *A2 (Pre-Intermediate)*
