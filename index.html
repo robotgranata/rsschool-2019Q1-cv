@@ -5,46 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <title>My CV</title>
 </head>
 <body>
-  <section>
+  <section class="section-one">
+    <h1>My CV</h1>
     <article>
-      <img src="assets/2020.jpg" width="150px" height="150px" alt="Eldar Nuriev">
-      <h1>Nuriev Eldar</h1>
-      <p>Junior JavaScript Developer</p>
+      <img class="image" src="assets/2020.jpg" width="200px" height="200px" alt="Eldar Nuriev">
+      <div class="article">
+        <p class="name">Nuriev Eldar</p>
+        <p class="skill">Junior JavaScript Developer</p>
+      </div>
     </article>
   </section>
-  <section>
+  <section class="section-two">
     <ol>
-      <li><h2>Name</h2></li>
+      <li><strong>Name</strong></li>
       <ul>
-        <li><h3>First name:</h3> Eldar</li>
-        <li><h3>Last name:</h3> Nuriev</li>
+        <li><strong>First name:</strong> Eldar</li>
+        <li><strong>Last name:</strong> Nuriev</li>
       </ul>
-      <li><h2>Contacts:</h2></li>
+      <li><strong>Contacts:</strong></li>
       <ul>
-        <li><h3>E-mail adress:</h3> eldarman@lsit.ru</li>
-        <li><h3>Phone number:</h3> +375291475134</li>
+        <li><strong>E-mail adress:</strong> <a href="mailto:eldarman@lsit.ru">eldarman@lsit.ru</a></li>
+        <li><strong>Phone number:</strong> <a href="tel:+375291475134">+375291475134</a></li>
       </ul>
-      <li><h2>About me:</h2> Novice programmer. My goal is to become a pro in JS.</li>
-      <li><h2>Skills:</h2></li>
+      <li><strong>About me:</strong> Novice programmer. My goal is to become a pro in JS.</li>
+      <li><strong>Skills:</strong></li>
       <ul>
         <li>HTML5</li>
         <li>CSS3</li>
         <li>JavaScript</li>
       </ul>
-      <li><h2>Example of my code:</h2>
-        <code><br>
+      <li><strong>Example of my code:</strong><br>
+        <code>
             function warmup(tcel) { <br>
               let tfar = 9/5*tcel+32; <br> 
               return tfar; <br>
             };
         </code>
       </li>
-      <li><h2>My completed task:</h2> WarmUp</li>
-      <li><h2>Education:</h2> Belarusian National Technical University</li>
-      <li><h2>English level:</h2> A2 (Pre-Intermediate)</li>
+      <li><strong>My completed task: </strong><a href="https://github.com/robotgranata/warmup"> WarmUp</a></li>
+      <li><strong>Education:</strong> Belarusian National Technical University</li>
+      <li><strong>English level:</strong> A2 (Pre-Intermediate)</li>
     </ol>
   </section>
 </body>
