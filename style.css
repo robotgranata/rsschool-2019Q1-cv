@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+
+html {
+  width: 1024px;
+  margin: 0 auto;
+  font-family: "Roboto";
+  background: white;
+}
+
+body {
+  min-width: 1024px;
+  background: rgb(207, 255, 215);
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+article {
+  margin: 20px;
+}
+
+.article {
+  display: inline-block;
+  position: relative;
+  bottom: 140px;
+  left: 20px;
+}
+
+.name {
+  font-size: 2em;
+}
+
+.skill {
+  font-size: 1.5em;
+}
+
+li {
+  margin: 10px;
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+li code {
+  width: auto;
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 15px;
+}
